@@ -167,7 +167,7 @@ class _AddCategoryState extends State<AddCategory> {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(3))),
                   child: isLoading
-                      ? const CircularProgressIndicator()
+                      ? const CircularProgressIndicator(color: Colors.white,)
                       : const Text(
                           'Add Category',
                           style: TextStyle(
