@@ -341,6 +341,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                 textInputAction: TextInputAction.next,
                 onEditingComplete: () => FocusScope.of(context).nextFocus(),
                 controller: productNewPriceController,
+                keyboardType: const TextInputType.numberWithOptions(),
                 decoration: InputDecoration(
                   labelText: 'New Price',
                   border: OutlineInputBorder(

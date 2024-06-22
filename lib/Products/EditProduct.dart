@@ -500,6 +500,7 @@ class _EditProductState extends State<EditProduct> {
 
               TextFormField(
                 controller: descriptionController,
+                maxLines: 3,
                 decoration: InputDecoration(
                   labelText: 'Edit Description',
                   // labelStyle: const TextStyle(color: Colors.black),
@@ -519,6 +520,7 @@ class _EditProductState extends State<EditProduct> {
 
               TextFormField(
                 controller: productAllDetailsController,
+                maxLines: 5,
                 decoration: InputDecoration(
                   labelText: "All Details",
                   hintText: 'About this item',
